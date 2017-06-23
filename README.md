@@ -1,18 +1,18 @@
-###proposal
+**proposal**
  
 1)chess_game  
 ・Koki Madono  
 ・Makoto　Nishizawa  
 ・Kentaro sako  
 
-##contents
+**contents**
 
 ・consider contents of arrayList  
 ・consider multithread  
 ・scrap class  
 ・two players are needed to play this game  
 ・use java.util.swing  
-##How to use 
+**How to use**
 
 ①Set up three terminal and please debug  
   `javac *.java`  
