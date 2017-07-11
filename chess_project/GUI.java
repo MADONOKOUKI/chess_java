@@ -40,9 +40,7 @@ public class GUI extends JFrame implements ActionListener
     //"this" Main Frame***********************************************************
     setLayout(new BorderLayout());
     setResizable(false);
-    //****************************************************************************
     
-    //South Panel*****************************************************************
     JPanel south = new JPanel();
     south.setPreferredSize(southSize);
     south.setLayout(new BoxLayout(south, BoxLayout.PAGE_AXIS));
@@ -52,38 +50,28 @@ public class GUI extends JFrame implements ActionListener
     JPanel southBottom = new JPanel();
     southBottom.setOpaque(true);
     southBottom.setBackground(new Color(51,102,255));
-    //****************************************************************************
-
-    //Status Bar******************************************************************
+    
     statusBar = new StatusBar(statusBarSize);
     southBottom.add(statusBar);
-    //****************************************************************************
     
     south.add(southTop);
     south.add(southBottom);
     add(south, BorderLayout.SOUTH);
 
-    //PGN Panel*******************************************************************    
+    
     pgnPanel = new PGNDisplay(pgnPanelSize);
     add(pgnPanel,BorderLayout.WEST);
-    //****************************************************************************
-
-    //Button Panel****************************************************************
+    
     ToolBar toolBar = new ToolBar(this, toolBarSize);
     add(toolBar,BorderLayout.EAST);
-    //****************************************************************************
-
-    //Game Board******************************************************************
+    
     board = new ChessBoard(boardState, this, boardSize);
     updateBoard(boardState);    
     add(board,BorderLayout.CENTER);
-    //****************************************************************************
-
-    //Menu Bar********************************************************************
+    
     Menu menuBar = new Menu(this);
     setJMenuBar(menuBar);
-    //****************************************************************************
-
+   
     pack();
     setLocation(screen.width/2-getSize().width/2, screen.height/2-getSize().height/2);
     repaint();
