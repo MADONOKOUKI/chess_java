@@ -2,8 +2,8 @@
  
 1)chess_game  
 ・Koki Madono  
-・Makoto　Nishizawa  
-・Kentaro sako  
+・Makoto Nishizawa  
+・Kentaro Sako  
 
 **contents**
 
