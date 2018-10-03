@@ -14,7 +14,7 @@
 ・use java.util.swing　　   
 **How to use**
 
-①Set up three terminal and please debug    
+①Set up three terminals and please debug    
   `javac *.java`　　   
 ②one terminal  
 
