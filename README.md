@@ -25,4 +25,4 @@
 `java TestClient 2222`　　  
 `java TestClient 3333`   
 
-④Start game# chess_java
+④Start game# chess_java  
