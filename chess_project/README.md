@@ -1,8 +1,4 @@
-this is class experiment and refer a bunch of reference so that this code is made by a lot of other's code but 
-in order to show my project as a beginner I decided to make a repository
-
-
-
+This is a group project done in a course of software development. "If I have seen further than others, it is by standing upon the shoulders of giants.", as written by Sir Isaac Newton, this project is built upon public libraries or projects. To express words of appreciation, we list the references below.
 
 ・**REFERENCE**  
 
